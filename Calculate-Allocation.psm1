@@ -25,8 +25,6 @@ function _CalculateAllocation{
     # $people is a tree structured dictionary, but not a dictionary tree. Or more like a hash tree but without the hash.
         # You can only do breadth-first search on this tree because the links only go one way.
 
-    # .value is one of the ways of dereferencing the pass-by-ref variables in Powershell
-
     if( $people.value.$id -eq $null ) {
             # This would be a good place for an error...
     }
