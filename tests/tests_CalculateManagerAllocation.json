@@ -1,0 +1,69 @@
+{
+	"tests": [
+		{
+	    	"name" : "default case",
+	    	"people" : "default_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "ManagerA",
+	    	"expected" : "2100"
+		},
+
+		{
+	    	"name" : "three levels",
+	    	"people" : "three_levels_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "3900"
+		},
+
+		{
+	    	"name" : "lone manager",
+	    	"people" : "lone_manager_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "300"
+		},
+
+		{
+	    	"name" : "all managers",
+	    	"people" : "all_managers_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "1500"
+		},
+
+		{
+	    	"name" : "wide dev team",
+	    	"people" : "wide_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "28200"
+		},
+
+		{
+	    	"name" : "multi manager dept Team A",
+	    	"people" : "lots_of_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "teamA",
+	    	"expected" : "4900"
+		},
+
+		{
+	    	"name" : "multi manager dept Team B",
+	    	"people" : "lots_of_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "teamB",
+	    	"expected" : "30900"
+		},
+
+		{
+	    	"name" : "multi manager dept Team C",
+	    	"people" : "lots_of_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "teamC",
+	    	"expected" : "332500"
+		}
+
+
+	]
+}

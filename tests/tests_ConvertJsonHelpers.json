@@ -1,0 +1,44 @@
+{
+	"tests": [
+		{
+	    	"name" : "default case - json equality",
+	    	"people" : "default_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "ManagerA",
+	    	"expected" : "2100"
+		},
+
+		{
+	    	"name" : "three levels - json equality",
+	    	"people" : "three_levels_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "3900"
+		},
+
+		{
+	    	"name" : "lone manager - json equality",
+	    	"people" : "lone_manager_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "300"
+		},
+
+		{
+	    	"name" : "all managers - json equality",
+	    	"people" : "all_managers_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "1500"
+		},
+
+		{
+	    	"name" : "wide dev team - json equality",
+	    	"people" : "wide_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "28200"
+		}
+
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"mark": {
+	    "id" : "mark",
+	    "type" : "Manager",
+	    "directs" : ["maven"]
+	},
+
+	"maven": {
+	    "id" : "maven",
+	    "type" : "Manager",
+	    "directs" : ["monica"]
+	},
+
+	"monica": {
+	    "id" : "monica",
+	    "type" : "Manager",
+	    "directs" : ["mike"]
+	},
+
+	"mike": {
+	    "id" : "monica",
+	    "type" : "Manager",
+	    "directs" : ["jim"]
+	},	
+
+	"jim": {
+	    "id" : "monica",
+	    "type" : "Manager",
+	    "directs" : [""]
+	}
+}

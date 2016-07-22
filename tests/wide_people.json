@@ -1,0 +1,215 @@
+{
+    "mark":  {
+                 "id":  "mark",
+                 "type":  "Manager",
+                 "directs":  [
+                                 "maven",
+                                 "monica",
+                                 "mike"
+                             ]
+             },
+    "maven":  {
+                  "id":  "maven",
+                  "type":  "Manager",
+                  "directs":  [
+                                  "dev01",
+                                  "dev02",
+                                  "dev03",
+                                  "dev04",
+                                  "dev05",
+                                  "dev06",
+                                  "dev07",
+                                  "dev08",
+                                  "dev09"
+                              ]
+              },
+    "monica":  {
+                   "id":  "monica",
+                   "type":  "Manager",
+                   "directs":  [
+                                   "dev11",
+                                   "dev12",
+                                   "dev13",
+                                   "dev14",
+                                   "dev15",
+                                   "dev16",
+                                   "dev17",
+                                   "dev18",
+                                   "dev19"
+                               ]
+               },
+    "mike":  {
+                 "id":  "mike",
+                 "type":  "Manager",
+                 "directs":  [
+                                 "dev21",
+                                 "dev22",
+                                 "dev23",
+                                 "dev24",
+                                 "dev25",
+                                 "dev26",
+                                 "dev27",
+                                 "dev28",
+                                 "dev29"
+                             ]
+             },
+    "mel":  {
+                "id":  "mel",
+                "type":  "Manager",
+                "directs":  [
+                                "dev31",
+                                "dev32",
+                                "dev33",
+                                "dev34",
+                                "dev35",
+                                "dev36",
+                                "dev37",
+                                "dev38",
+                                "dev39"
+                            ]
+            },
+    "dev01":  {
+                  "id":  "dev01",
+                  "type":  "Developer"
+              },
+    "dev02":  {
+                  "id":  "dev02",
+                  "type":  "Developer"
+              },
+    "dev03":  {
+                  "id":  "dev03",
+                  "type":  "Developer"
+              },
+    "dev04":  {
+                  "id":  "dev04",
+                  "type":  "Developer"
+              },
+    "dev05":  {
+                  "id":  "dev05",
+                  "type":  "Developer"
+              },
+    "dev06":  {
+                  "id":  "dev06",
+                  "type":  "Developer"
+              },
+    "dev07":  {
+                  "id":  "dev07",
+                  "type":  "Developer"
+              },
+    "dev08":  {
+                  "id":  "dev08",
+                  "type":  "Developer"
+              },
+    "dev09":  {
+                  "id":  "dev09",
+                  "type":  "Developer"
+              },
+    "dev11":  {
+                  "id":  "dev11",
+                  "type":  "Developer"
+              },
+    "dev12":  {
+                  "id":  "dev12",
+                  "type":  "Developer"
+              },
+    "dev13":  {
+                  "id":  "dev13",
+                  "type":  "Developer"
+              },
+    "dev14":  {
+                  "id":  "dev14",
+                  "type":  "Developer"
+              },
+    "dev15":  {
+                  "id":  "dev15",
+                  "type":  "Developer"
+              },
+    "dev16":  {
+                  "id":  "dev16",
+                  "type":  "Developer"
+              },
+    "dev17":  {
+                  "id":  "dev17",
+                  "type":  "Developer"
+              },
+    "dev18":  {
+                  "id":  "dev18",
+                  "type":  "Developer"
+              },
+    "dev19":  {
+                  "id":  "dev19",
+                  "type":  "Developer"
+              },
+    "dev21":  {
+                  "id":  "dev21",
+                  "type":  "Developer"
+              },
+    "dev22":  {
+                  "id":  "dev22",
+                  "type":  "Developer"
+              },
+    "dev23":  {
+                  "id":  "dev23",
+                  "type":  "Developer"
+              },
+    "dev24":  {
+                  "id":  "dev24",
+                  "type":  "Developer"
+              },
+    "dev25":  {
+                  "id":  "dev25",
+                  "type":  "Developer"
+              },
+    "dev26":  {
+                  "id":  "dev26",
+                  "type":  "Developer"
+              },
+    "dev27":  {
+                  "id":  "dev27",
+                  "type":  "Developer"
+              },
+    "dev28":  {
+                  "id":  "dev28",
+                  "type":  "Developer"
+              },
+    "dev29":  {
+                  "id":  "dev29",
+                  "type":  "Developer"
+              },
+    "dev31":  {
+                  "id":  "dev31",
+                  "type":  "Developer"
+              },
+    "dev32":  {
+                  "id":  "dev32",
+                  "type":  "Developer"
+              },
+    "dev33":  {
+                  "id":  "dev33",
+                  "type":  "Developer"
+              },
+    "dev34":  {
+                  "id":  "dev34",
+                  "type":  "Developer"
+              },
+    "dev35":  {
+                  "id":  "dev35",
+                  "type":  "Developer"
+              },
+    "dev36":  {
+                  "id":  "dev36",
+                  "type":  "Developer"
+              },
+    "dev37":  {
+                  "id":  "dev37",
+                  "type":  "Developer"
+              },
+    "dev38":  {
+                  "id":  "dev38",
+                  "type":  "Developer"
+              },
+    "dev39":  {
+                  "id":  "dev39",
+                  "type":  "Developer"
+              }
+}

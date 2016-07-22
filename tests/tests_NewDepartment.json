@@ -1,0 +1,82 @@
+{
+	"sum_tests": [
+		{
+	    	"name" : "default case - sum comparison",
+	    	"people" : "default_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "ManagerA",
+	    	"expected" : "2100"
+		},
+
+		{
+	    	"name" : "three levels - sum comparison",
+	    	"people" : "three_levels_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "3900"
+		},
+
+		{
+	    	"name" : "lone manager - sum comparison",
+	    	"people" : "lone_manager_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "300"
+		},
+
+		{
+	    	"name" : "all managers - sum comparison",
+	    	"people" : "all_managers_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "1500"
+		},
+
+		{
+	    	"name" : "wide dev team - sum comparison",
+	    	"people" : "wide_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "mark",
+	    	"expected" : "28200"
+		}
+
+	],
+
+	"constuctor_tests": [
+		{
+	    	"name" : "default case - people count",
+	    	"people" : "default_people.json",
+	    	"rates" : "default_rates.json",
+	    	"expected" : "4"
+		},
+
+		{
+	    	"name" : "three levels - people count",
+	    	"people" : "three_levels_people.json",
+	    	"rates" : "default_rates.json",
+	    	"expected" : "7"
+		},
+
+		{
+	    	"name" : "lone manager - people count",
+	    	"people" : "lone_manager_people.json",
+	    	"rates" : "default_rates.json",
+	    	"expected" : "1"
+		},
+
+		{
+	    	"name" : "all managers - people count",
+	    	"people" : "all_managers_people.json",
+	    	"rates" : "default_rates.json",
+	    	"expected" : "5"
+		},
+
+		{
+	    	"name" : "wide dev team - people count",
+	    	"people" : "wide_people.json",
+	    	"rates" : "default_rates.json",
+	    	"expected" : "41"
+		}
+
+	]
+}

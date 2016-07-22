@@ -1,0 +1,28 @@
+{
+	"tests": [
+		{
+	    	"name" : "small tree",
+	    	"people" : "small_tree_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "small",
+	    	"expected" : "17500"
+		},
+
+		{
+	    	"name" : "medium tree",
+	    	"people" : "medium_tree_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "medium",
+	    	"expected" : "4505500"
+		},
+
+		{
+	    	"name" : "big tree",
+	    	"people" : "big_tree_people.json",
+	    	"rates" : "default_rates.json",
+	    	"managerid" : "big",
+	    	"expected" : "72089500"
+		}
+
+	]
+}

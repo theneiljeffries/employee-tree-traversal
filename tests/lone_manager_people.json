@@ -1,0 +1,7 @@
+{
+	"mark": {
+	    "id" : "mark",
+	    "type" : "Manager",
+	    "directs" : [""]
+	}
+}

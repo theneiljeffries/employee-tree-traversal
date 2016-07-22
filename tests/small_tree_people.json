@@ -1,0 +1,132 @@
+{
+    "small":  {
+                  "directs":  [
+                                  "small_1",
+                                  "small_2",
+                                  "small_3",
+                                  "small_4"
+                              ],
+                  "id":  "small",
+                  "type":  "Manager"
+              },
+    "small_1":  {
+                    "directs":  [
+                                    "small_1_1",
+                                    "small_1_2",
+                                    "small_1_3",
+                                    "small_1_4"
+                                ],
+                    "id":  "small_1",
+                    "type":  "Manager"
+                },
+    "small_1_1":  {
+                      "directs":  null,
+                      "id":  "small_1_1",
+                      "type":  "Developer"
+                  },
+    "small_1_2":  {
+                      "directs":  null,
+                      "id":  "small_1_2",
+                      "type":  "Developer"
+                  },
+    "small_1_3":  {
+                      "directs":  null,
+                      "id":  "small_1_3",
+                      "type":  "Developer"
+                  },
+    "small_1_4":  {
+                      "directs":  null,
+                      "id":  "small_1_4",
+                      "type":  "Developer"
+                  },
+    "small_2":  {
+                    "directs":  [
+                                    "small_2_1",
+                                    "small_2_2",
+                                    "small_2_3",
+                                    "small_2_4"
+                                ],
+                    "id":  "small_2",
+                    "type":  "Manager"
+                },
+    "small_2_1":  {
+                      "directs":  null,
+                      "id":  "small_2_1",
+                      "type":  "Developer"
+                  },
+    "small_2_2":  {
+                      "directs":  null,
+                      "id":  "small_2_2",
+                      "type":  "Developer"
+                  },
+    "small_2_3":  {
+                      "directs":  null,
+                      "id":  "small_2_3",
+                      "type":  "Developer"
+                  },
+    "small_2_4":  {
+                      "directs":  null,
+                      "id":  "small_2_4",
+                      "type":  "Developer"
+                  },
+    "small_3":  {
+                    "directs":  [
+                                    "small_3_1",
+                                    "small_3_2",
+                                    "small_3_3",
+                                    "small_3_4"
+                                ],
+                    "id":  "small_3",
+                    "type":  "Manager"
+                },
+    "small_3_1":  {
+                      "directs":  null,
+                      "id":  "small_3_1",
+                      "type":  "Developer"
+                  },
+    "small_3_2":  {
+                      "directs":  null,
+                      "id":  "small_3_2",
+                      "type":  "Developer"
+                  },
+    "small_3_3":  {
+                      "directs":  null,
+                      "id":  "small_3_3",
+                      "type":  "Developer"
+                  },
+    "small_3_4":  {
+                      "directs":  null,
+                      "id":  "small_3_4",
+                      "type":  "Developer"
+                  },
+    "small_4":  {
+                    "directs":  [
+                                    "small_4_1",
+                                    "small_4_2",
+                                    "small_4_3",
+                                    "small_4_4"
+                                ],
+                    "id":  "small_4",
+                    "type":  "Manager"
+                },
+    "small_4_1":  {
+                      "directs":  null,
+                      "id":  "small_4_1",
+                      "type":  "Developer"
+                  },
+    "small_4_2":  {
+                      "directs":  null,
+                      "id":  "small_4_2",
+                      "type":  "Developer"
+                  },
+    "small_4_3":  {
+                      "directs":  null,
+                      "id":  "small_4_3",
+                      "type":  "Developer"
+                  },
+    "small_4_4":  {
+                      "directs":  null,
+                      "id":  "small_4_4",
+                      "type":  "Developer"
+                  }
+}

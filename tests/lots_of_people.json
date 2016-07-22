@@ -1,0 +1,3623 @@
+{
+
+    "teamA":  {
+                  "directs":  [
+                                  "teamA_1",
+                                  "teamA_2"
+                              ],
+                  "id":  "teamA",
+                  "type":  "Manager"
+              },
+    "teamA_1":  {
+                    "directs":  [
+                                    "teamA_1_1",
+                                    "teamA_1_2"
+                                ],
+                    "id":  "teamA_1",
+                    "type":  "Manager"
+                },
+    "teamA_1_1":  {
+                      "directs":  null,
+                      "id":  "teamA_1_1",
+                      "type":  "Developer"
+                  },
+    "teamA_1_2":  {
+                      "directs":  null,
+                      "id":  "teamA_1_2",
+                      "type":  "Developer"
+                  },
+    "teamA_2":  {
+                    "directs":  [
+                                    "teamA_2_1",
+                                    "teamA_2_2"
+                                ],
+                    "id":  "teamA_2",
+                    "type":  "Manager"
+                },
+    "teamA_2_1":  {
+                      "directs":  null,
+                      "id":  "teamA_2_1",
+                      "type":  "Developer"
+                  },
+    "teamA_2_2":  {
+                      "directs":  null,
+                      "id":  "teamA_2_2",
+                      "type":  "Developer"
+                  },
+
+
+    "teamB":  {
+                  "directs":  [
+                                  "teamB_1",
+                                  "teamB_2",
+                                  "teamB_3"
+                              ],
+                  "id":  "teamB",
+                  "type":  "Manager"
+              },
+    "teamB_1":  {
+                    "directs":  [
+                                    "teamB_1_1",
+                                    "teamB_1_2",
+                                    "teamB_1_3"
+                                ],
+                    "id":  "teamB_1",
+                    "type":  "Manager"
+                },
+    "teamB_1_1":  {
+                      "directs":  [
+                                      "teamB_1_1_1",
+                                      "teamB_1_1_2",
+                                      "teamB_1_1_3"
+                                  ],
+                      "id":  "teamB_1_1",
+                      "type":  "Manager"
+                  },
+    "teamB_1_1_1":  {
+                        "directs":  null,
+                        "id":  "teamB_1_1_1",
+                        "type":  "Developer"
+                    },
+    "teamB_1_1_2":  {
+                        "directs":  null,
+                        "id":  "teamB_1_1_2",
+                        "type":  "Developer"
+                    },
+    "teamB_1_1_3":  {
+                        "directs":  null,
+                        "id":  "teamB_1_1_3",
+                        "type":  "Developer"
+                    },
+    "teamB_1_2":  {
+                      "directs":  [
+                                      "teamB_1_2_1",
+                                      "teamB_1_2_2",
+                                      "teamB_1_2_3"
+                                  ],
+                      "id":  "teamB_1_2",
+                      "type":  "Manager"
+                  },
+    "teamB_1_2_1":  {
+                        "directs":  null,
+                        "id":  "teamB_1_2_1",
+                        "type":  "Developer"
+                    },
+    "teamB_1_2_2":  {
+                        "directs":  null,
+                        "id":  "teamB_1_2_2",
+                        "type":  "Developer"
+                    },
+    "teamB_1_2_3":  {
+                        "directs":  null,
+                        "id":  "teamB_1_2_3",
+                        "type":  "Developer"
+                    },
+    "teamB_1_3":  {
+                      "directs":  [
+                                      "teamB_1_3_1",
+                                      "teamB_1_3_2",
+                                      "teamB_1_3_3"
+                                  ],
+                      "id":  "teamB_1_3",
+                      "type":  "Manager"
+                  },
+    "teamB_1_3_1":  {
+                        "directs":  null,
+                        "id":  "teamB_1_3_1",
+                        "type":  "Developer"
+                    },
+    "teamB_1_3_2":  {
+                        "directs":  null,
+                        "id":  "teamB_1_3_2",
+                        "type":  "Developer"
+                    },
+    "teamB_1_3_3":  {
+                        "directs":  null,
+                        "id":  "teamB_1_3_3",
+                        "type":  "Developer"
+                    },
+    "teamB_2":  {
+                    "directs":  [
+                                    "teamB_2_1",
+                                    "teamB_2_2",
+                                    "teamB_2_3"
+                                ],
+                    "id":  "teamB_2",
+                    "type":  "Manager"
+                },
+    "teamB_2_1":  {
+                      "directs":  [
+                                      "teamB_2_1_1",
+                                      "teamB_2_1_2",
+                                      "teamB_2_1_3"
+                                  ],
+                      "id":  "teamB_2_1",
+                      "type":  "Manager"
+                  },
+    "teamB_2_1_1":  {
+                        "directs":  null,
+                        "id":  "teamB_2_1_1",
+                        "type":  "Developer"
+                    },
+    "teamB_2_1_2":  {
+                        "directs":  null,
+                        "id":  "teamB_2_1_2",
+                        "type":  "Developer"
+                    },
+    "teamB_2_1_3":  {
+                        "directs":  null,
+                        "id":  "teamB_2_1_3",
+                        "type":  "Developer"
+                    },
+    "teamB_2_2":  {
+                      "directs":  [
+                                      "teamB_2_2_1",
+                                      "teamB_2_2_2",
+                                      "teamB_2_2_3"
+                                  ],
+                      "id":  "teamB_2_2",
+                      "type":  "Manager"
+                  },
+    "teamB_2_2_1":  {
+                        "directs":  null,
+                        "id":  "teamB_2_2_1",
+                        "type":  "Developer"
+                    },
+    "teamB_2_2_2":  {
+                        "directs":  null,
+                        "id":  "teamB_2_2_2",
+                        "type":  "Developer"
+                    },
+    "teamB_2_2_3":  {
+                        "directs":  null,
+                        "id":  "teamB_2_2_3",
+                        "type":  "Developer"
+                    },
+    "teamB_2_3":  {
+                      "directs":  [
+                                      "teamB_2_3_1",
+                                      "teamB_2_3_2",
+                                      "teamB_2_3_3"
+                                  ],
+                      "id":  "teamB_2_3",
+                      "type":  "Manager"
+                  },
+    "teamB_2_3_1":  {
+                        "directs":  null,
+                        "id":  "teamB_2_3_1",
+                        "type":  "Developer"
+                    },
+    "teamB_2_3_2":  {
+                        "directs":  null,
+                        "id":  "teamB_2_3_2",
+                        "type":  "Developer"
+                    },
+    "teamB_2_3_3":  {
+                        "directs":  null,
+                        "id":  "teamB_2_3_3",
+                        "type":  "Developer"
+                    },
+    "teamB_3":  {
+                    "directs":  [
+                                    "teamB_3_1",
+                                    "teamB_3_2",
+                                    "teamB_3_3"
+                                ],
+                    "id":  "teamB_3",
+                    "type":  "Manager"
+                },
+    "teamB_3_1":  {
+                      "directs":  [
+                                      "teamB_3_1_1",
+                                      "teamB_3_1_2",
+                                      "teamB_3_1_3"
+                                  ],
+                      "id":  "teamB_3_1",
+                      "type":  "Manager"
+                  },
+    "teamB_3_1_1":  {
+                        "directs":  null,
+                        "id":  "teamB_3_1_1",
+                        "type":  "Developer"
+                    },
+    "teamB_3_1_2":  {
+                        "directs":  null,
+                        "id":  "teamB_3_1_2",
+                        "type":  "Developer"
+                    },
+    "teamB_3_1_3":  {
+                        "directs":  null,
+                        "id":  "teamB_3_1_3",
+                        "type":  "Developer"
+                    },
+    "teamB_3_2":  {
+                      "directs":  [
+                                      "teamB_3_2_1",
+                                      "teamB_3_2_2",
+                                      "teamB_3_2_3"
+                                  ],
+                      "id":  "teamB_3_2",
+                      "type":  "Manager"
+                  },
+    "teamB_3_2_1":  {
+                        "directs":  null,
+                        "id":  "teamB_3_2_1",
+                        "type":  "Developer"
+                    },
+    "teamB_3_2_2":  {
+                        "directs":  null,
+                        "id":  "teamB_3_2_2",
+                        "type":  "Developer"
+                    },
+    "teamB_3_2_3":  {
+                        "directs":  null,
+                        "id":  "teamB_3_2_3",
+                        "type":  "Developer"
+                    },
+    "teamB_3_3":  {
+                      "directs":  [
+                                      "teamB_3_3_1",
+                                      "teamB_3_3_2",
+                                      "teamB_3_3_3"
+                                  ],
+                      "id":  "teamB_3_3",
+                      "type":  "Manager"
+                  },
+    "teamB_3_3_1":  {
+                        "directs":  null,
+                        "id":  "teamB_3_3_1",
+                        "type":  "Developer"
+                    },
+    "teamB_3_3_2":  {
+                        "directs":  null,
+                        "id":  "teamB_3_3_2",
+                        "type":  "Developer"
+                    },
+    "teamB_3_3_3":  {
+                        "directs":  null,
+                        "id":  "teamB_3_3_3",
+                        "type":  "Developer"
+                    },
+
+
+    "teamC":  {
+                  "directs":  [
+                                  "teamC_1",
+                                  "teamC_2"
+                              ],
+                  "id":  "teamC",
+                  "type":  "Manager"
+              },
+    "teamC_1":  {
+                    "directs":  [
+                                    "teamC_1_1",
+                                    "teamC_1_2"
+                                ],
+                    "id":  "teamC_1",
+                    "type":  "Manager"
+                },
+    "teamC_1_1":  {
+                      "directs":  [
+                                      "teamC_1_1_1",
+                                      "teamC_1_1_2"
+                                  ],
+                      "id":  "teamC_1_1",
+                      "type":  "Manager"
+                  },
+    "teamC_1_1_1":  {
+                        "directs":  [
+                                        "teamC_1_1_1_1",
+                                        "teamC_1_1_1_2"
+                                    ],
+                        "id":  "teamC_1_1_1",
+                        "type":  "Manager"
+                    },
+    "teamC_1_1_1_1":  {
+                          "directs":  [
+                                          "teamC_1_1_1_1_1",
+                                          "teamC_1_1_1_1_2"
+                                      ],
+                          "id":  "teamC_1_1_1_1",
+                          "type":  "Manager"
+                      },
+    "teamC_1_1_1_1_1":  {
+                            "directs":  [
+                                            "teamC_1_1_1_1_1_1",
+                                            "teamC_1_1_1_1_1_2"
+                                        ],
+                            "id":  "teamC_1_1_1_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_1_1_1_1":  {
+                              "directs":  [
+                                              "teamC_1_1_1_1_1_1_1",
+                                              "teamC_1_1_1_1_1_1_2"
+                                          ],
+                              "id":  "teamC_1_1_1_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_1_1_1_1",
+                                                "teamC_1_1_1_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_1_1_2_1",
+                                                "teamC_1_1_1_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_2":  {
+                              "directs":  [
+                                              "teamC_1_1_1_1_1_2_1",
+                                              "teamC_1_1_1_1_1_2_2"
+                                          ],
+                              "id":  "teamC_1_1_1_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_1_2_1_1",
+                                                "teamC_1_1_1_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_1_2_2_1",
+                                                "teamC_1_1_1_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2":  {
+                            "directs":  [
+                                            "teamC_1_1_1_1_2_1",
+                                            "teamC_1_1_1_1_2_2"
+                                        ],
+                            "id":  "teamC_1_1_1_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_1_1_2_1":  {
+                              "directs":  [
+                                              "teamC_1_1_1_1_2_1_1",
+                                              "teamC_1_1_1_1_2_1_2"
+                                          ],
+                              "id":  "teamC_1_1_1_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_2_1_1_1",
+                                                "teamC_1_1_1_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_2_1_2_1",
+                                                "teamC_1_1_1_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_2":  {
+                              "directs":  [
+                                              "teamC_1_1_1_1_2_2_1",
+                                              "teamC_1_1_1_1_2_2_2"
+                                          ],
+                              "id":  "teamC_1_1_1_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_2_2_1_1",
+                                                "teamC_1_1_1_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_1_2_2_2_1",
+                                                "teamC_1_1_1_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2":  {
+                          "directs":  [
+                                          "teamC_1_1_1_2_1",
+                                          "teamC_1_1_1_2_2"
+                                      ],
+                          "id":  "teamC_1_1_1_2",
+                          "type":  "Manager"
+                      },
+    "teamC_1_1_1_2_1":  {
+                            "directs":  [
+                                            "teamC_1_1_1_2_1_1",
+                                            "teamC_1_1_1_2_1_2"
+                                        ],
+                            "id":  "teamC_1_1_1_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_1_2_1_1":  {
+                              "directs":  [
+                                              "teamC_1_1_1_2_1_1_1",
+                                              "teamC_1_1_1_2_1_1_2"
+                                          ],
+                              "id":  "teamC_1_1_1_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_1_1_1_1",
+                                                "teamC_1_1_1_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_1_1_2_1",
+                                                "teamC_1_1_1_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_2":  {
+                              "directs":  [
+                                              "teamC_1_1_1_2_1_2_1",
+                                              "teamC_1_1_1_2_1_2_2"
+                                          ],
+                              "id":  "teamC_1_1_1_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_1_2_1_1",
+                                                "teamC_1_1_1_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_1_2_2_1",
+                                                "teamC_1_1_1_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2":  {
+                            "directs":  [
+                                            "teamC_1_1_1_2_2_1",
+                                            "teamC_1_1_1_2_2_2"
+                                        ],
+                            "id":  "teamC_1_1_1_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_1_2_2_1":  {
+                              "directs":  [
+                                              "teamC_1_1_1_2_2_1_1",
+                                              "teamC_1_1_1_2_2_1_2"
+                                          ],
+                              "id":  "teamC_1_1_1_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_2_1_1_1",
+                                                "teamC_1_1_1_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_2_1_2_1",
+                                                "teamC_1_1_1_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_2":  {
+                              "directs":  [
+                                              "teamC_1_1_1_2_2_2_1",
+                                              "teamC_1_1_1_2_2_2_2"
+                                          ],
+                              "id":  "teamC_1_1_1_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_1_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_2_2_1_1",
+                                                "teamC_1_1_1_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_1_2_2_2_2_1",
+                                                "teamC_1_1_1_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_1_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_1_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_1_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_1_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2":  {
+                        "directs":  [
+                                        "teamC_1_1_2_1",
+                                        "teamC_1_1_2_2"
+                                    ],
+                        "id":  "teamC_1_1_2",
+                        "type":  "Manager"
+                    },
+    "teamC_1_1_2_1":  {
+                          "directs":  [
+                                          "teamC_1_1_2_1_1",
+                                          "teamC_1_1_2_1_2"
+                                      ],
+                          "id":  "teamC_1_1_2_1",
+                          "type":  "Manager"
+                      },
+    "teamC_1_1_2_1_1":  {
+                            "directs":  [
+                                            "teamC_1_1_2_1_1_1",
+                                            "teamC_1_1_2_1_1_2"
+                                        ],
+                            "id":  "teamC_1_1_2_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_2_1_1_1":  {
+                              "directs":  [
+                                              "teamC_1_1_2_1_1_1_1",
+                                              "teamC_1_1_2_1_1_1_2"
+                                          ],
+                              "id":  "teamC_1_1_2_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_1_1_1_1",
+                                                "teamC_1_1_2_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_1_1_2_1",
+                                                "teamC_1_1_2_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_2":  {
+                              "directs":  [
+                                              "teamC_1_1_2_1_1_2_1",
+                                              "teamC_1_1_2_1_1_2_2"
+                                          ],
+                              "id":  "teamC_1_1_2_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_1_2_1_1",
+                                                "teamC_1_1_2_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_1_2_2_1",
+                                                "teamC_1_1_2_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2":  {
+                            "directs":  [
+                                            "teamC_1_1_2_1_2_1",
+                                            "teamC_1_1_2_1_2_2"
+                                        ],
+                            "id":  "teamC_1_1_2_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_2_1_2_1":  {
+                              "directs":  [
+                                              "teamC_1_1_2_1_2_1_1",
+                                              "teamC_1_1_2_1_2_1_2"
+                                          ],
+                              "id":  "teamC_1_1_2_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_2_1_1_1",
+                                                "teamC_1_1_2_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_2_1_2_1",
+                                                "teamC_1_1_2_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_2":  {
+                              "directs":  [
+                                              "teamC_1_1_2_1_2_2_1",
+                                              "teamC_1_1_2_1_2_2_2"
+                                          ],
+                              "id":  "teamC_1_1_2_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_2_2_1_1",
+                                                "teamC_1_1_2_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_1_2_2_2_1",
+                                                "teamC_1_1_2_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2":  {
+                          "directs":  [
+                                          "teamC_1_1_2_2_1",
+                                          "teamC_1_1_2_2_2"
+                                      ],
+                          "id":  "teamC_1_1_2_2",
+                          "type":  "Manager"
+                      },
+    "teamC_1_1_2_2_1":  {
+                            "directs":  [
+                                            "teamC_1_1_2_2_1_1",
+                                            "teamC_1_1_2_2_1_2"
+                                        ],
+                            "id":  "teamC_1_1_2_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_2_2_1_1":  {
+                              "directs":  [
+                                              "teamC_1_1_2_2_1_1_1",
+                                              "teamC_1_1_2_2_1_1_2"
+                                          ],
+                              "id":  "teamC_1_1_2_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_1_1_1_1",
+                                                "teamC_1_1_2_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_1_1_2_1",
+                                                "teamC_1_1_2_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_2":  {
+                              "directs":  [
+                                              "teamC_1_1_2_2_1_2_1",
+                                              "teamC_1_1_2_2_1_2_2"
+                                          ],
+                              "id":  "teamC_1_1_2_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_1_2_1_1",
+                                                "teamC_1_1_2_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_1_2_2_1",
+                                                "teamC_1_1_2_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2":  {
+                            "directs":  [
+                                            "teamC_1_1_2_2_2_1",
+                                            "teamC_1_1_2_2_2_2"
+                                        ],
+                            "id":  "teamC_1_1_2_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_1_2_2_2_1":  {
+                              "directs":  [
+                                              "teamC_1_1_2_2_2_1_1",
+                                              "teamC_1_1_2_2_2_1_2"
+                                          ],
+                              "id":  "teamC_1_1_2_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_2_1_1_1",
+                                                "teamC_1_1_2_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_2_1_2_1",
+                                                "teamC_1_1_2_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_2":  {
+                              "directs":  [
+                                              "teamC_1_1_2_2_2_2_1",
+                                              "teamC_1_1_2_2_2_2_2"
+                                          ],
+                              "id":  "teamC_1_1_2_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_1_2_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_2_2_1_1",
+                                                "teamC_1_1_2_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_1_2_2_2_2_2_1",
+                                                "teamC_1_1_2_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_1_2_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_1_2_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_1_2_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_1_2_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2":  {
+                      "directs":  [
+                                      "teamC_1_2_1",
+                                      "teamC_1_2_2"
+                                  ],
+                      "id":  "teamC_1_2",
+                      "type":  "Manager"
+                  },
+    "teamC_1_2_1":  {
+                        "directs":  [
+                                        "teamC_1_2_1_1",
+                                        "teamC_1_2_1_2"
+                                    ],
+                        "id":  "teamC_1_2_1",
+                        "type":  "Manager"
+                    },
+    "teamC_1_2_1_1":  {
+                          "directs":  [
+                                          "teamC_1_2_1_1_1",
+                                          "teamC_1_2_1_1_2"
+                                      ],
+                          "id":  "teamC_1_2_1_1",
+                          "type":  "Manager"
+                      },
+    "teamC_1_2_1_1_1":  {
+                            "directs":  [
+                                            "teamC_1_2_1_1_1_1",
+                                            "teamC_1_2_1_1_1_2"
+                                        ],
+                            "id":  "teamC_1_2_1_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_1_1_1_1":  {
+                              "directs":  [
+                                              "teamC_1_2_1_1_1_1_1",
+                                              "teamC_1_2_1_1_1_1_2"
+                                          ],
+                              "id":  "teamC_1_2_1_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_1_1_1_1",
+                                                "teamC_1_2_1_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_1_1_2_1",
+                                                "teamC_1_2_1_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_2":  {
+                              "directs":  [
+                                              "teamC_1_2_1_1_1_2_1",
+                                              "teamC_1_2_1_1_1_2_2"
+                                          ],
+                              "id":  "teamC_1_2_1_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_1_2_1_1",
+                                                "teamC_1_2_1_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_1_2_2_1",
+                                                "teamC_1_2_1_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2":  {
+                            "directs":  [
+                                            "teamC_1_2_1_1_2_1",
+                                            "teamC_1_2_1_1_2_2"
+                                        ],
+                            "id":  "teamC_1_2_1_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_1_1_2_1":  {
+                              "directs":  [
+                                              "teamC_1_2_1_1_2_1_1",
+                                              "teamC_1_2_1_1_2_1_2"
+                                          ],
+                              "id":  "teamC_1_2_1_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_2_1_1_1",
+                                                "teamC_1_2_1_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_2_1_2_1",
+                                                "teamC_1_2_1_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_2":  {
+                              "directs":  [
+                                              "teamC_1_2_1_1_2_2_1",
+                                              "teamC_1_2_1_1_2_2_2"
+                                          ],
+                              "id":  "teamC_1_2_1_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_2_2_1_1",
+                                                "teamC_1_2_1_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_1_2_2_2_1",
+                                                "teamC_1_2_1_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2":  {
+                          "directs":  [
+                                          "teamC_1_2_1_2_1",
+                                          "teamC_1_2_1_2_2"
+                                      ],
+                          "id":  "teamC_1_2_1_2",
+                          "type":  "Manager"
+                      },
+    "teamC_1_2_1_2_1":  {
+                            "directs":  [
+                                            "teamC_1_2_1_2_1_1",
+                                            "teamC_1_2_1_2_1_2"
+                                        ],
+                            "id":  "teamC_1_2_1_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_1_2_1_1":  {
+                              "directs":  [
+                                              "teamC_1_2_1_2_1_1_1",
+                                              "teamC_1_2_1_2_1_1_2"
+                                          ],
+                              "id":  "teamC_1_2_1_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_1_1_1_1",
+                                                "teamC_1_2_1_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_1_1_2_1",
+                                                "teamC_1_2_1_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_2":  {
+                              "directs":  [
+                                              "teamC_1_2_1_2_1_2_1",
+                                              "teamC_1_2_1_2_1_2_2"
+                                          ],
+                              "id":  "teamC_1_2_1_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_1_2_1_1",
+                                                "teamC_1_2_1_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_1_2_2_1",
+                                                "teamC_1_2_1_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2":  {
+                            "directs":  [
+                                            "teamC_1_2_1_2_2_1",
+                                            "teamC_1_2_1_2_2_2"
+                                        ],
+                            "id":  "teamC_1_2_1_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_1_2_2_1":  {
+                              "directs":  [
+                                              "teamC_1_2_1_2_2_1_1",
+                                              "teamC_1_2_1_2_2_1_2"
+                                          ],
+                              "id":  "teamC_1_2_1_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_2_1_1_1",
+                                                "teamC_1_2_1_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_2_1_2_1",
+                                                "teamC_1_2_1_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_2":  {
+                              "directs":  [
+                                              "teamC_1_2_1_2_2_2_1",
+                                              "teamC_1_2_1_2_2_2_2"
+                                          ],
+                              "id":  "teamC_1_2_1_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_1_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_2_2_1_1",
+                                                "teamC_1_2_1_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_1_2_2_2_2_1",
+                                                "teamC_1_2_1_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_1_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_1_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_1_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_1_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2":  {
+                        "directs":  [
+                                        "teamC_1_2_2_1",
+                                        "teamC_1_2_2_2"
+                                    ],
+                        "id":  "teamC_1_2_2",
+                        "type":  "Manager"
+                    },
+    "teamC_1_2_2_1":  {
+                          "directs":  [
+                                          "teamC_1_2_2_1_1",
+                                          "teamC_1_2_2_1_2"
+                                      ],
+                          "id":  "teamC_1_2_2_1",
+                          "type":  "Manager"
+                      },
+    "teamC_1_2_2_1_1":  {
+                            "directs":  [
+                                            "teamC_1_2_2_1_1_1",
+                                            "teamC_1_2_2_1_1_2"
+                                        ],
+                            "id":  "teamC_1_2_2_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_2_1_1_1":  {
+                              "directs":  [
+                                              "teamC_1_2_2_1_1_1_1",
+                                              "teamC_1_2_2_1_1_1_2"
+                                          ],
+                              "id":  "teamC_1_2_2_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_1_1_1_1",
+                                                "teamC_1_2_2_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_1_1_2_1",
+                                                "teamC_1_2_2_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_2":  {
+                              "directs":  [
+                                              "teamC_1_2_2_1_1_2_1",
+                                              "teamC_1_2_2_1_1_2_2"
+                                          ],
+                              "id":  "teamC_1_2_2_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_1_2_1_1",
+                                                "teamC_1_2_2_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_1_2_2_1",
+                                                "teamC_1_2_2_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2":  {
+                            "directs":  [
+                                            "teamC_1_2_2_1_2_1",
+                                            "teamC_1_2_2_1_2_2"
+                                        ],
+                            "id":  "teamC_1_2_2_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_2_1_2_1":  {
+                              "directs":  [
+                                              "teamC_1_2_2_1_2_1_1",
+                                              "teamC_1_2_2_1_2_1_2"
+                                          ],
+                              "id":  "teamC_1_2_2_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_2_1_1_1",
+                                                "teamC_1_2_2_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_2_1_2_1",
+                                                "teamC_1_2_2_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_2":  {
+                              "directs":  [
+                                              "teamC_1_2_2_1_2_2_1",
+                                              "teamC_1_2_2_1_2_2_2"
+                                          ],
+                              "id":  "teamC_1_2_2_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_2_2_1_1",
+                                                "teamC_1_2_2_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_1_2_2_2_1",
+                                                "teamC_1_2_2_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2":  {
+                          "directs":  [
+                                          "teamC_1_2_2_2_1",
+                                          "teamC_1_2_2_2_2"
+                                      ],
+                          "id":  "teamC_1_2_2_2",
+                          "type":  "Manager"
+                      },
+    "teamC_1_2_2_2_1":  {
+                            "directs":  [
+                                            "teamC_1_2_2_2_1_1",
+                                            "teamC_1_2_2_2_1_2"
+                                        ],
+                            "id":  "teamC_1_2_2_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_2_2_1_1":  {
+                              "directs":  [
+                                              "teamC_1_2_2_2_1_1_1",
+                                              "teamC_1_2_2_2_1_1_2"
+                                          ],
+                              "id":  "teamC_1_2_2_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_1_1_1_1",
+                                                "teamC_1_2_2_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_1_1_2_1",
+                                                "teamC_1_2_2_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_2":  {
+                              "directs":  [
+                                              "teamC_1_2_2_2_1_2_1",
+                                              "teamC_1_2_2_2_1_2_2"
+                                          ],
+                              "id":  "teamC_1_2_2_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_1_2_1_1",
+                                                "teamC_1_2_2_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_1_2_2_1",
+                                                "teamC_1_2_2_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2":  {
+                            "directs":  [
+                                            "teamC_1_2_2_2_2_1",
+                                            "teamC_1_2_2_2_2_2"
+                                        ],
+                            "id":  "teamC_1_2_2_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_1_2_2_2_2_1":  {
+                              "directs":  [
+                                              "teamC_1_2_2_2_2_1_1",
+                                              "teamC_1_2_2_2_2_1_2"
+                                          ],
+                              "id":  "teamC_1_2_2_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_2_1_1_1",
+                                                "teamC_1_2_2_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_2_1_2_1",
+                                                "teamC_1_2_2_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_2":  {
+                              "directs":  [
+                                              "teamC_1_2_2_2_2_2_1",
+                                              "teamC_1_2_2_2_2_2_2"
+                                          ],
+                              "id":  "teamC_1_2_2_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_1_2_2_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_2_2_1_1",
+                                                "teamC_1_2_2_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_1_2_2_2_2_2_2_1",
+                                                "teamC_1_2_2_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_1_2_2_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_1_2_2_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_1_2_2_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_1_2_2_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2":  {
+                    "directs":  [
+                                    "teamC_2_1",
+                                    "teamC_2_2"
+                                ],
+                    "id":  "teamC_2",
+                    "type":  "Manager"
+                },
+    "teamC_2_1":  {
+                      "directs":  [
+                                      "teamC_2_1_1",
+                                      "teamC_2_1_2"
+                                  ],
+                      "id":  "teamC_2_1",
+                      "type":  "Manager"
+                  },
+    "teamC_2_1_1":  {
+                        "directs":  [
+                                        "teamC_2_1_1_1",
+                                        "teamC_2_1_1_2"
+                                    ],
+                        "id":  "teamC_2_1_1",
+                        "type":  "Manager"
+                    },
+    "teamC_2_1_1_1":  {
+                          "directs":  [
+                                          "teamC_2_1_1_1_1",
+                                          "teamC_2_1_1_1_2"
+                                      ],
+                          "id":  "teamC_2_1_1_1",
+                          "type":  "Manager"
+                      },
+    "teamC_2_1_1_1_1":  {
+                            "directs":  [
+                                            "teamC_2_1_1_1_1_1",
+                                            "teamC_2_1_1_1_1_2"
+                                        ],
+                            "id":  "teamC_2_1_1_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_1_1_1_1":  {
+                              "directs":  [
+                                              "teamC_2_1_1_1_1_1_1",
+                                              "teamC_2_1_1_1_1_1_2"
+                                          ],
+                              "id":  "teamC_2_1_1_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_1_1_1_1",
+                                                "teamC_2_1_1_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_1_1_2_1",
+                                                "teamC_2_1_1_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_2":  {
+                              "directs":  [
+                                              "teamC_2_1_1_1_1_2_1",
+                                              "teamC_2_1_1_1_1_2_2"
+                                          ],
+                              "id":  "teamC_2_1_1_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_1_2_1_1",
+                                                "teamC_2_1_1_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_1_2_2_1",
+                                                "teamC_2_1_1_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2":  {
+                            "directs":  [
+                                            "teamC_2_1_1_1_2_1",
+                                            "teamC_2_1_1_1_2_2"
+                                        ],
+                            "id":  "teamC_2_1_1_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_1_1_2_1":  {
+                              "directs":  [
+                                              "teamC_2_1_1_1_2_1_1",
+                                              "teamC_2_1_1_1_2_1_2"
+                                          ],
+                              "id":  "teamC_2_1_1_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_2_1_1_1",
+                                                "teamC_2_1_1_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_2_1_2_1",
+                                                "teamC_2_1_1_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_2":  {
+                              "directs":  [
+                                              "teamC_2_1_1_1_2_2_1",
+                                              "teamC_2_1_1_1_2_2_2"
+                                          ],
+                              "id":  "teamC_2_1_1_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_2_2_1_1",
+                                                "teamC_2_1_1_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_1_2_2_2_1",
+                                                "teamC_2_1_1_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2":  {
+                          "directs":  [
+                                          "teamC_2_1_1_2_1",
+                                          "teamC_2_1_1_2_2"
+                                      ],
+                          "id":  "teamC_2_1_1_2",
+                          "type":  "Manager"
+                      },
+    "teamC_2_1_1_2_1":  {
+                            "directs":  [
+                                            "teamC_2_1_1_2_1_1",
+                                            "teamC_2_1_1_2_1_2"
+                                        ],
+                            "id":  "teamC_2_1_1_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_1_2_1_1":  {
+                              "directs":  [
+                                              "teamC_2_1_1_2_1_1_1",
+                                              "teamC_2_1_1_2_1_1_2"
+                                          ],
+                              "id":  "teamC_2_1_1_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_1_1_1_1",
+                                                "teamC_2_1_1_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_1_1_2_1",
+                                                "teamC_2_1_1_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_2":  {
+                              "directs":  [
+                                              "teamC_2_1_1_2_1_2_1",
+                                              "teamC_2_1_1_2_1_2_2"
+                                          ],
+                              "id":  "teamC_2_1_1_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_1_2_1_1",
+                                                "teamC_2_1_1_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_1_2_2_1",
+                                                "teamC_2_1_1_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2":  {
+                            "directs":  [
+                                            "teamC_2_1_1_2_2_1",
+                                            "teamC_2_1_1_2_2_2"
+                                        ],
+                            "id":  "teamC_2_1_1_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_1_2_2_1":  {
+                              "directs":  [
+                                              "teamC_2_1_1_2_2_1_1",
+                                              "teamC_2_1_1_2_2_1_2"
+                                          ],
+                              "id":  "teamC_2_1_1_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_2_1_1_1",
+                                                "teamC_2_1_1_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_2_1_2_1",
+                                                "teamC_2_1_1_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_2":  {
+                              "directs":  [
+                                              "teamC_2_1_1_2_2_2_1",
+                                              "teamC_2_1_1_2_2_2_2"
+                                          ],
+                              "id":  "teamC_2_1_1_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_1_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_2_2_1_1",
+                                                "teamC_2_1_1_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_1_2_2_2_2_1",
+                                                "teamC_2_1_1_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_1_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_1_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_1_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_1_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2":  {
+                        "directs":  [
+                                        "teamC_2_1_2_1",
+                                        "teamC_2_1_2_2"
+                                    ],
+                        "id":  "teamC_2_1_2",
+                        "type":  "Manager"
+                    },
+    "teamC_2_1_2_1":  {
+                          "directs":  [
+                                          "teamC_2_1_2_1_1",
+                                          "teamC_2_1_2_1_2"
+                                      ],
+                          "id":  "teamC_2_1_2_1",
+                          "type":  "Manager"
+                      },
+    "teamC_2_1_2_1_1":  {
+                            "directs":  [
+                                            "teamC_2_1_2_1_1_1",
+                                            "teamC_2_1_2_1_1_2"
+                                        ],
+                            "id":  "teamC_2_1_2_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_2_1_1_1":  {
+                              "directs":  [
+                                              "teamC_2_1_2_1_1_1_1",
+                                              "teamC_2_1_2_1_1_1_2"
+                                          ],
+                              "id":  "teamC_2_1_2_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_1_1_1_1",
+                                                "teamC_2_1_2_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_1_1_2_1",
+                                                "teamC_2_1_2_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_2":  {
+                              "directs":  [
+                                              "teamC_2_1_2_1_1_2_1",
+                                              "teamC_2_1_2_1_1_2_2"
+                                          ],
+                              "id":  "teamC_2_1_2_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_1_2_1_1",
+                                                "teamC_2_1_2_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_1_2_2_1",
+                                                "teamC_2_1_2_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2":  {
+                            "directs":  [
+                                            "teamC_2_1_2_1_2_1",
+                                            "teamC_2_1_2_1_2_2"
+                                        ],
+                            "id":  "teamC_2_1_2_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_2_1_2_1":  {
+                              "directs":  [
+                                              "teamC_2_1_2_1_2_1_1",
+                                              "teamC_2_1_2_1_2_1_2"
+                                          ],
+                              "id":  "teamC_2_1_2_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_2_1_1_1",
+                                                "teamC_2_1_2_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_2_1_2_1",
+                                                "teamC_2_1_2_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_2":  {
+                              "directs":  [
+                                              "teamC_2_1_2_1_2_2_1",
+                                              "teamC_2_1_2_1_2_2_2"
+                                          ],
+                              "id":  "teamC_2_1_2_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_2_2_1_1",
+                                                "teamC_2_1_2_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_1_2_2_2_1",
+                                                "teamC_2_1_2_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2":  {
+                          "directs":  [
+                                          "teamC_2_1_2_2_1",
+                                          "teamC_2_1_2_2_2"
+                                      ],
+                          "id":  "teamC_2_1_2_2",
+                          "type":  "Manager"
+                      },
+    "teamC_2_1_2_2_1":  {
+                            "directs":  [
+                                            "teamC_2_1_2_2_1_1",
+                                            "teamC_2_1_2_2_1_2"
+                                        ],
+                            "id":  "teamC_2_1_2_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_2_2_1_1":  {
+                              "directs":  [
+                                              "teamC_2_1_2_2_1_1_1",
+                                              "teamC_2_1_2_2_1_1_2"
+                                          ],
+                              "id":  "teamC_2_1_2_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_1_1_1_1",
+                                                "teamC_2_1_2_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_1_1_2_1",
+                                                "teamC_2_1_2_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_2":  {
+                              "directs":  [
+                                              "teamC_2_1_2_2_1_2_1",
+                                              "teamC_2_1_2_2_1_2_2"
+                                          ],
+                              "id":  "teamC_2_1_2_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_1_2_1_1",
+                                                "teamC_2_1_2_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_1_2_2_1",
+                                                "teamC_2_1_2_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2":  {
+                            "directs":  [
+                                            "teamC_2_1_2_2_2_1",
+                                            "teamC_2_1_2_2_2_2"
+                                        ],
+                            "id":  "teamC_2_1_2_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_1_2_2_2_1":  {
+                              "directs":  [
+                                              "teamC_2_1_2_2_2_1_1",
+                                              "teamC_2_1_2_2_2_1_2"
+                                          ],
+                              "id":  "teamC_2_1_2_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_2_1_1_1",
+                                                "teamC_2_1_2_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_2_1_2_1",
+                                                "teamC_2_1_2_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_2":  {
+                              "directs":  [
+                                              "teamC_2_1_2_2_2_2_1",
+                                              "teamC_2_1_2_2_2_2_2"
+                                          ],
+                              "id":  "teamC_2_1_2_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_1_2_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_2_2_1_1",
+                                                "teamC_2_1_2_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_1_2_2_2_2_2_1",
+                                                "teamC_2_1_2_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_1_2_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_1_2_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_1_2_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_1_2_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2":  {
+                      "directs":  [
+                                      "teamC_2_2_1",
+                                      "teamC_2_2_2"
+                                  ],
+                      "id":  "teamC_2_2",
+                      "type":  "Manager"
+                  },
+    "teamC_2_2_1":  {
+                        "directs":  [
+                                        "teamC_2_2_1_1",
+                                        "teamC_2_2_1_2"
+                                    ],
+                        "id":  "teamC_2_2_1",
+                        "type":  "Manager"
+                    },
+    "teamC_2_2_1_1":  {
+                          "directs":  [
+                                          "teamC_2_2_1_1_1",
+                                          "teamC_2_2_1_1_2"
+                                      ],
+                          "id":  "teamC_2_2_1_1",
+                          "type":  "Manager"
+                      },
+    "teamC_2_2_1_1_1":  {
+                            "directs":  [
+                                            "teamC_2_2_1_1_1_1",
+                                            "teamC_2_2_1_1_1_2"
+                                        ],
+                            "id":  "teamC_2_2_1_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_1_1_1_1":  {
+                              "directs":  [
+                                              "teamC_2_2_1_1_1_1_1",
+                                              "teamC_2_2_1_1_1_1_2"
+                                          ],
+                              "id":  "teamC_2_2_1_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_1_1_1_1",
+                                                "teamC_2_2_1_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_1_1_2_1",
+                                                "teamC_2_2_1_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_2":  {
+                              "directs":  [
+                                              "teamC_2_2_1_1_1_2_1",
+                                              "teamC_2_2_1_1_1_2_2"
+                                          ],
+                              "id":  "teamC_2_2_1_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_1_2_1_1",
+                                                "teamC_2_2_1_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_1_2_2_1",
+                                                "teamC_2_2_1_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2":  {
+                            "directs":  [
+                                            "teamC_2_2_1_1_2_1",
+                                            "teamC_2_2_1_1_2_2"
+                                        ],
+                            "id":  "teamC_2_2_1_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_1_1_2_1":  {
+                              "directs":  [
+                                              "teamC_2_2_1_1_2_1_1",
+                                              "teamC_2_2_1_1_2_1_2"
+                                          ],
+                              "id":  "teamC_2_2_1_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_2_1_1_1",
+                                                "teamC_2_2_1_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_2_1_2_1",
+                                                "teamC_2_2_1_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_2":  {
+                              "directs":  [
+                                              "teamC_2_2_1_1_2_2_1",
+                                              "teamC_2_2_1_1_2_2_2"
+                                          ],
+                              "id":  "teamC_2_2_1_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_2_2_1_1",
+                                                "teamC_2_2_1_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_1_2_2_2_1",
+                                                "teamC_2_2_1_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2":  {
+                          "directs":  [
+                                          "teamC_2_2_1_2_1",
+                                          "teamC_2_2_1_2_2"
+                                      ],
+                          "id":  "teamC_2_2_1_2",
+                          "type":  "Manager"
+                      },
+    "teamC_2_2_1_2_1":  {
+                            "directs":  [
+                                            "teamC_2_2_1_2_1_1",
+                                            "teamC_2_2_1_2_1_2"
+                                        ],
+                            "id":  "teamC_2_2_1_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_1_2_1_1":  {
+                              "directs":  [
+                                              "teamC_2_2_1_2_1_1_1",
+                                              "teamC_2_2_1_2_1_1_2"
+                                          ],
+                              "id":  "teamC_2_2_1_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_1_1_1_1",
+                                                "teamC_2_2_1_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_1_1_2_1",
+                                                "teamC_2_2_1_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_2":  {
+                              "directs":  [
+                                              "teamC_2_2_1_2_1_2_1",
+                                              "teamC_2_2_1_2_1_2_2"
+                                          ],
+                              "id":  "teamC_2_2_1_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_1_2_1_1",
+                                                "teamC_2_2_1_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_1_2_2_1",
+                                                "teamC_2_2_1_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2":  {
+                            "directs":  [
+                                            "teamC_2_2_1_2_2_1",
+                                            "teamC_2_2_1_2_2_2"
+                                        ],
+                            "id":  "teamC_2_2_1_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_1_2_2_1":  {
+                              "directs":  [
+                                              "teamC_2_2_1_2_2_1_1",
+                                              "teamC_2_2_1_2_2_1_2"
+                                          ],
+                              "id":  "teamC_2_2_1_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_2_1_1_1",
+                                                "teamC_2_2_1_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_2_1_2_1",
+                                                "teamC_2_2_1_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_2":  {
+                              "directs":  [
+                                              "teamC_2_2_1_2_2_2_1",
+                                              "teamC_2_2_1_2_2_2_2"
+                                          ],
+                              "id":  "teamC_2_2_1_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_1_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_2_2_1_1",
+                                                "teamC_2_2_1_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_1_2_2_2_2_1",
+                                                "teamC_2_2_1_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_1_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_1_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_1_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_1_2_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2":  {
+                        "directs":  [
+                                        "teamC_2_2_2_1",
+                                        "teamC_2_2_2_2"
+                                    ],
+                        "id":  "teamC_2_2_2",
+                        "type":  "Manager"
+                    },
+    "teamC_2_2_2_1":  {
+                          "directs":  [
+                                          "teamC_2_2_2_1_1",
+                                          "teamC_2_2_2_1_2"
+                                      ],
+                          "id":  "teamC_2_2_2_1",
+                          "type":  "Manager"
+                      },
+    "teamC_2_2_2_1_1":  {
+                            "directs":  [
+                                            "teamC_2_2_2_1_1_1",
+                                            "teamC_2_2_2_1_1_2"
+                                        ],
+                            "id":  "teamC_2_2_2_1_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_2_1_1_1":  {
+                              "directs":  [
+                                              "teamC_2_2_2_1_1_1_1",
+                                              "teamC_2_2_2_1_1_1_2"
+                                          ],
+                              "id":  "teamC_2_2_2_1_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_1_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_1_1_1_1",
+                                                "teamC_2_2_2_1_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_1_1_2_1",
+                                                "teamC_2_2_2_1_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_2":  {
+                              "directs":  [
+                                              "teamC_2_2_2_1_1_2_1",
+                                              "teamC_2_2_2_1_1_2_2"
+                                          ],
+                              "id":  "teamC_2_2_2_1_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_1_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_1_2_1_1",
+                                                "teamC_2_2_2_1_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_1_2_2_1",
+                                                "teamC_2_2_2_1_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2":  {
+                            "directs":  [
+                                            "teamC_2_2_2_1_2_1",
+                                            "teamC_2_2_2_1_2_2"
+                                        ],
+                            "id":  "teamC_2_2_2_1_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_2_1_2_1":  {
+                              "directs":  [
+                                              "teamC_2_2_2_1_2_1_1",
+                                              "teamC_2_2_2_1_2_1_2"
+                                          ],
+                              "id":  "teamC_2_2_2_1_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_1_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_2_1_1_1",
+                                                "teamC_2_2_2_1_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_2_1_2_1",
+                                                "teamC_2_2_2_1_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_2":  {
+                              "directs":  [
+                                              "teamC_2_2_2_1_2_2_1",
+                                              "teamC_2_2_2_1_2_2_2"
+                                          ],
+                              "id":  "teamC_2_2_2_1_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_1_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_2_2_1_1",
+                                                "teamC_2_2_2_1_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_1_2_2_2_1",
+                                                "teamC_2_2_2_1_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_1_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_1_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_1_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_1_2_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2":  {
+                          "directs":  [
+                                          "teamC_2_2_2_2_1",
+                                          "teamC_2_2_2_2_2"
+                                      ],
+                          "id":  "teamC_2_2_2_2",
+                          "type":  "Manager"
+                      },
+    "teamC_2_2_2_2_1":  {
+                            "directs":  [
+                                            "teamC_2_2_2_2_1_1",
+                                            "teamC_2_2_2_2_1_2"
+                                        ],
+                            "id":  "teamC_2_2_2_2_1",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_2_2_1_1":  {
+                              "directs":  [
+                                              "teamC_2_2_2_2_1_1_1",
+                                              "teamC_2_2_2_2_1_1_2"
+                                          ],
+                              "id":  "teamC_2_2_2_2_1_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_2_1_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_1_1_1_1",
+                                                "teamC_2_2_2_2_1_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_1_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_1_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_1_1_2_1",
+                                                "teamC_2_2_2_2_1_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_1_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_1_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_2":  {
+                              "directs":  [
+                                              "teamC_2_2_2_2_1_2_1",
+                                              "teamC_2_2_2_2_1_2_2"
+                                          ],
+                              "id":  "teamC_2_2_2_2_1_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_2_1_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_1_2_1_1",
+                                                "teamC_2_2_2_2_1_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_1_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_1_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_1_2_2_1",
+                                                "teamC_2_2_2_2_1_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_1_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_1_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_1_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_1_2_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2":  {
+                            "directs":  [
+                                            "teamC_2_2_2_2_2_1",
+                                            "teamC_2_2_2_2_2_2"
+                                        ],
+                            "id":  "teamC_2_2_2_2_2",
+                            "type":  "Manager"
+                        },
+    "teamC_2_2_2_2_2_1":  {
+                              "directs":  [
+                                              "teamC_2_2_2_2_2_1_1",
+                                              "teamC_2_2_2_2_2_1_2"
+                                          ],
+                              "id":  "teamC_2_2_2_2_2_1",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_2_2_1_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_2_1_1_1",
+                                                "teamC_2_2_2_2_2_1_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_2_1_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_2_1_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_1_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_1_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_1_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_1_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_2_1_2_1",
+                                                "teamC_2_2_2_2_2_1_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_2_1_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_2_1_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_1_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_1_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_1_2_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_2":  {
+                              "directs":  [
+                                              "teamC_2_2_2_2_2_2_1",
+                                              "teamC_2_2_2_2_2_2_2"
+                                          ],
+                              "id":  "teamC_2_2_2_2_2_2",
+                              "type":  "Manager"
+                          },
+    "teamC_2_2_2_2_2_2_1":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_2_2_1_1",
+                                                "teamC_2_2_2_2_2_2_1_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_2_2_1",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_2_2_1_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_2_1_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_2_1_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_2_1_2",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_2_2":  {
+                                "directs":  [
+                                                "teamC_2_2_2_2_2_2_2_1",
+                                                "teamC_2_2_2_2_2_2_2_2"
+                                            ],
+                                "id":  "teamC_2_2_2_2_2_2_2",
+                                "type":  "Manager"
+                            },
+    "teamC_2_2_2_2_2_2_2_1":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_2_2_1",
+                                  "type":  "Developer"
+                              },
+    "teamC_2_2_2_2_2_2_2_2":  {
+                                  "directs":  null,
+                                  "id":  "teamC_2_2_2_2_2_2_2_2",
+                                  "type":  "Developer"
+                              }
+}

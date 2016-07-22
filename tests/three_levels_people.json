@@ -1,0 +1,39 @@
+{
+	"mark": {
+	    "id" : "mark",
+	    "type" : "Manager",
+	    "directs" : ["mike", "maria"]
+	},
+
+	"mike": {
+	    "id" : "mike",
+	    "type" : "Manager",
+	    "directs" : ["diane", "quintin"]
+	},
+
+	"maria" : {
+    	"id" : "maria",
+    	"type" : "Manager",
+    	"directs" : ["dave","tina"]
+    },
+
+	"dave" : {
+    	"id" : "dave",
+    	"type" : "Developer"
+	},
+
+	"tina" : {
+    	"id" : "tina",
+    	"type" : "QA Tester"
+	},
+
+	"diane" : {
+    	"id" : "diane",
+    	"type" : "Developer"
+	},
+
+	"quintin" : {
+    	"id" : "quintin",
+    	"type" : "QA Tester"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"ManagerA": {
+	    "id" : "ManagerA",
+	    "type" : "Manager",
+	    "directs" : ["ManagerB"]
+	},
+
+	"ManagerB": {
+	    "id" : "ManagerB",
+	    "type" : "Manager",
+	    "directs" : ["Developer", "QA Tester"]
+	},
+
+	"Developer" : {
+    	"id" : "Developer",
+    	"type" : "Developer"
+	},
+
+	"QA Tester" : {
+    	"id" : "QA Tester",
+    	"type" : "QA Tester"
+	}
+}

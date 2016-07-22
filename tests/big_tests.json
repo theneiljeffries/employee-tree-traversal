@@ -1,0 +1,11 @@
+{
+	"tests": [
+		{
+	    	"name" : "big team",
+	    	"people" : ".\\test_data\\people_big_tree.json",
+	    	"rates" : ".\\test_data\\rates.json",
+	    	"managerid" : "root",
+	    	"BigJson" : "True"
+		}
+	]
+}
